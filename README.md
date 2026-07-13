@@ -1,2 +1,5 @@
 # microsoft-azure-ops
-Multi-region Azure-class ops health (portfolio)
+
+**Portfolio motion** — multi-region health/cost anomaly for Azure-class ops problem spaces.
+
+Not Microsoft employment. Pairs with AKOS special-projects positioning.
