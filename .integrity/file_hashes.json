@@ -1,5 +1,5 @@
 {
-  "file_count": 8,
+  "file_count": 9,
   "hashes": {
     "AKOS.md": "7fe75c369aef1b05d842fbc5a4a2e347e949787e0a17bec0bb99a2f8b490b9ca",
     "EASTER_EGGS.md": "0c4fc58a6163b54497fc8327ec77f4293330eea4ba636e30db202836bd450900",
@@ -8,6 +8,7 @@
     "SECURITY_AND_FLEET_OPS.md": "26141c0f07d95847d679de423ddb7bdee6f3e319d204383c89a58d6d3bb610c7",
     "mastermind_sidecar.py": "ccd7f8c14fbb36f8d9e35696a5fbfdacd861ef22a140a5e76f7a90b569d1db17",
     "src/azure_ops_health.py": "a83dc9a6938c226f41d8fde230245458f5a7e6765a9f576dbfe76fcdd19968b0",
+    "src/azure_resource_manager.ts": "bda767a7f8df233cf2561c9aeeb9f3d8b8a92fead7ba6cd3a4344d0ed3107d88",
     "tests/test_azure_ops.py": "6eec769050f2aff30b792ee59fc79e3370e4bb95dd2a5e86f11ea59e51ecebf8"
   }
 }
