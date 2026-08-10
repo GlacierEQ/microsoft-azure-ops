@@ -1,0 +1,38 @@
+{
+  "schema": "glaciereq.operability-receipt.v1",
+  "repository": "GlacierEQ/microsoft-azure-ops",
+  "at": "2026-08-10T04:12Z",
+  "source_sha": "21bfc3a744164a2b64fb557f6b24a541718f80b63cc8cb7e50f73eeb1f8dc897",
+  "entry": "scripts/operate.py",
+  "primary_output": {
+    "module": "azure_ops_health",
+    "ok": true,
+    "repository": "GlacierEQ/microsoft-azure-ops",
+    "smoke": {
+      "args": [
+        "[RegionSample(region='sample_region', la"
+      ],
+      "content_checked": true,
+      "invoked": true,
+      "kind": "fn",
+      "name": "fleet",
+      "result": {
+        "fleet_score": 0.698,
+        "regions": [
+          {
+            "region": "sample_region",
+            "score": 0.698,
+            "status": "DEGRADED"
+          }
+        ],
+        "worst": {
+          "region": "sample_region",
+          "score": 0.698,
+          "status": "DEGRADED"
+        }
+      }
+    }
+  },
+  "dual_run_ok": true,
+  "result": "PASS"
+}

@@ -8,7 +8,6 @@ from __future__ import annotations
 import math
 from dataclasses import dataclass
 
-ANSWER = 42
 CONFIDENCE_FLOOR = 0.31415
 SIGMA = math.e
 
@@ -39,16 +38,15 @@ def region_score(s: RegionSample) -> dict:
     return {
         "region": s.region,
         "score": round(max(0, min(1, idx)), 4),
-        "status": status,
-        "answer": ANSWER,
-    }
+        "status": status
+        }
 
 
 def fleet(samples: list[RegionSample]) -> dict:
     rows = [region_score(s) for s in samples]
     avg = sum(r["score"] for r in rows) / max(len(rows), 1)
     worst = min(rows, key=lambda r: r["score"]) if rows else None
-    return {"regions": rows, "fleet_score": round(avg, 4), "worst": worst, "answer": ANSWER}
+    return {"regions": rows, "fleet_score": round(avg, 4), "worst": worst }
 
 
 if __name__ == "__main__":
